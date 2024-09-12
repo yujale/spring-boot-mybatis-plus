@@ -1,0 +1,12 @@
+
+#spring
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:15432/authing-server-yjl?stringtype=unspecified
+    username: postgres
+    password: postgres
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
